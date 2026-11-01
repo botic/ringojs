@@ -69,7 +69,7 @@ gpg: Good signature from "Philipp Naderer-Puiu <philipp@naderer-puiu.at>" [ultim
 [![main](https://github.com/ringo/ringojs/actions/workflows/test-publish-main.yaml/badge.svg?branch=main)](https://github.com/ringo/ringojs/actions/workflows/test-publish-main.yaml)
 
 Ringo runs on top of the Java Platform. You can use an open implementation like [Eclipse Temurin][EclipseTemurin] or [Oracle's distribution][OracleJava].
-It uses [Gradle] as build tool.
+It uses [Gradle] as build tool. Building Ringo requires JDK 17 or newer, while the resulting artifacts still run on Java 8 and above.
 
 [EclipseTemurin]: https://adoptium.net/ 
 [OracleJava]: https://www.oracle.com/technetwork/java/javase/downloads/index.html
